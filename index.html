@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Podgląd diety</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --border: #d1d5db;
+      --accent: #2563eb;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --card: #1f2937;
+        --text: #f9fafb;
+        --muted: #9ca3af;
+        --border: #374151;
+        --accent: #60a5fa;
+      }
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 16px 40px;
+    }
+
+    .header {
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 1.8rem;
+    }
+
+    .sub {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin: 18px 0;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+    }
+
+    label {
+      font-weight: 600;
+    }
+
+    select,
+    button {
+      border: 1px solid var(--border);
+      background: transparent;
+      color: var(--text);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 0.95rem;
+    }
+
+    button {
+      cursor: pointer;
+      border-color: var(--accent);
+    }
+
+    .status {
+      color: var(--muted);
+      margin: 6px 0 12px;
+      min-height: 20px;
+    }
+
+    .shopping-controls {
+      margin: 0 0 12px;
+      padding: 12px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--card);
+    }
+
+    .shopping-controls h2 {
+      margin: 0 0 10px;
+      font-size: 1.05rem;
+    }
+
+    #day-checkboxes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      margin-bottom: 10px;
+    }
+
+    .day-option {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+    }
+
+    .shopping-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    #shopping-list {
+      margin-bottom: 14px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px;
+      overflow-x: auto;
+    }
+
+    #shopping-list .shopping-meta {
+      margin-top: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .shopping-category {
+      margin-top: 14px;
+    }
+
+    .shopping-category h4 {
+      margin: 0 0 8px;
+      font-size: 1rem;
+    }
+
+    #content {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+      overflow-x: auto;
+    }
+
+    #content table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 12px 0;
+    }
+
+    #content th,
+    #content td {
+      border: 1px solid var(--border);
+      padding: 6px 8px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    #content hr {
+      border: 0;
+      border-top: 1px solid var(--border);
+      margin: 18px 0;
+    }
+
+    #content details {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 10px;
+      margin: 10px 0;
+    }
+
+    #content summary {
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .day-section__body {
+      margin-top: 8px;
+    }
+
+    .meal-section {
+      margin-left: 4px;
+    }
+
+    .meal-section__body {
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Podgląd diety</h1>
+      <p class="sub">Wybierz plik, aby wyświetlić przygotowany jadłospis.</p>
+    </header>
+
+    <section class="toolbar" aria-label="Wybór diety">
+      <label for="diet-select">Plan:</label>
+      <select id="diet-select">
+        <option value="nowe_diety_2dni_1800_2400.md">Dieta 2 dni (1800/2400)</option>
+        <option value="nowe_diety_10dni_1800_2400_kolejny_zestaw.md">Dieta 10 dni (kolejny zestaw)</option>
+      </select>
+      <button id="reload-btn" type="button">Odśwież</button>
+    </section>
+
+    <p id="status" class="status" aria-live="polite"></p>
+    <section class="shopping-controls" aria-label="Generator listy zakupów">
+      <h2>Lista zakupów (na wybrane dni)</h2>
+      <div id="day-checkboxes"></div>
+      <div class="shopping-actions">
+        <button id="select-all-days-btn" type="button">Zaznacz wszystkie dni</button>
+        <button id="clear-all-days-btn" type="button">Odznacz wszystkie dni</button>
+        <button id="generate-shopping-btn" type="button">Generuj listę zakupów</button>
+        <button id="clear-shopping-btn" type="button">Wyczyść listę zakupów</button>
+      </div>
+    </section>
+
+    <article id="shopping-list"></article>
+    <article id="content"></article>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
