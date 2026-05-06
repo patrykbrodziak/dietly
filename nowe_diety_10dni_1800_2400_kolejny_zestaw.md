@@ -649,6 +649,8 @@ Legenda:
 
 ---
 
+## Dzien 9
+
 ### Posiłek 1
 **Tortilla sniadaniowa z jajecznicą, fetą i pomidorem**
 
@@ -724,6 +726,8 @@ Legenda:
 3. Ułóż gruszkę na jogurcie; posyp posiekanymi orzechami włoskimi.
 
 ---
+
+## Dzien 10
 
 ### Posiłek 1
 **Chleb żytni z pastą z awokado i jajkiem na twardo**
