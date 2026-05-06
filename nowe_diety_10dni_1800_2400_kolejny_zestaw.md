@@ -6,6 +6,8 @@ Zasady (jak w poprzednim pliku):
 - Układ jest pod wspolne gotowanie na raz.
 - Wartosci odzywcze: orientacyjne.
 
+**Dlaczego coś się „powtarza”?** Ten jadłospis jest złożony tak, żeby kilka razy wracać do tych samych produktów (np. tortille, makaron pełnoziarnisty, skyr), ale **każdy dzień ma cztery pełne posiłki** — jeśli czegoś brakowało, to głównie krótki opis przy kolacji. Poniżej dopisane są przepisy i zamienione są dwa obiady, które były zbyt podobne do siebie (pinsa).
+
 Legenda:
 - `1800` = osoba na nizszej kalorycznosci
 - `2400` = osoba na wyzszej kalorycznosci
@@ -84,6 +86,11 @@ Legenda:
 | Wanilia + cynamon | do smaku | do smaku |
 | Orzechy wloskie | 8 g | 12 g |
 
+**Przygotowanie wspolne:**
+1. Rozgnieć twaróg widelcem lub zmiksuj na gładki mus.
+2. Wymieszaj z jogurtem; dopraw wanilią i cynamonem.
+3. Dodaj borówki i posyp posiekanymi orzechami.
+
 ---
 
 ## Dzien 2
@@ -107,11 +114,11 @@ Legenda:
 ---
 
 ### Posiłek 2
-**Pinsa z pieczarkami, mozzarella i pesto z rukoli**
+**Zapiekanka ziemniaczana z pieczarkami, mozzarellą i pesto z rukoli**
 
 | Składnik | 1800 | 2400 |
 |---|---:|---:|
-| Pinsa | 160 g | 220 g |
+| Ziemniaki (ugotowane lub surowe w cienkich plasterkach) | 300 g | 430 g |
 | Pieczarki | 180 g | 250 g |
 | Mozzarella | 55 g | 80 g |
 | Rukola | 40 g | 60 g |
@@ -121,9 +128,9 @@ Legenda:
 | Pieprz, sol, oregano | do smaku | do smaku |
 
 **Przygotowanie wspolne:**
-1. Pesto: zblenduj rukole + oliwe + czosnek (parmezan jesli dodajesz).
-2. Podpiecz / podsmaz pieczarki i ułoz je na pinsie z pesto i mozzarella.
-3. Piecz ok. 10-12 min w gorącym piekarniku.
+1. Pesto: zblenduj rukole + oliwę + czosnek (parmezan jeśli dodajesz).
+2. Podsmaż pieczarki z przyprawami. Ułóż warstwami ziemniaki ↔ pieczarki, przekładaj pesto.
+3. Wierzch przykryj mozzarellą; zapiek ok. 25–30 min w 190 °C (jeśli ziemniaki były surowe, przykryj folią na początku).
 
 ---
 
@@ -156,6 +163,11 @@ Legenda:
 | Orzechy laskowe | 10 g | 15 g |
 | Cynamon | do smaku | do smaku |
 | Erytrol lub miod | 6 g | 10 g |
+
+**Przygotowanie wspolne:**
+1. Jabłko pokrój w kostkę; podsmaż na patelni z odrobiną wody, cynamonem i słodzidłem, aż zmięknie (ok. 5–7 min).
+2. W misce wymieszaj jogurt ze świeżą szczyptą cynamonu.
+3. Włóż jogurt do miseczek, dodaj ciepłe lub letnie jabłko, posyp posiekanymi orzechami.
 
 ---
 
@@ -228,6 +240,11 @@ Legenda:
 | Mango | 160 g | 230 g |
 | Platki migdalowe | 12 g | 18 g |
 | Cytryna (kilka kropel) | opcjonalnie | opcjonalnie |
+
+**Przygotowanie wspolne:**
+1. Mango obierz i pokrój (lub użyj mrożonego — rozmroź częściowo).
+2. Zblenduj mango ze skyrem na gładkość; w razie potrzeby dolej 1–2 łyżki wody.
+3. Przelej do szklanki; posyp płatkami migdałowymi; cytryna opcjonalnie.
 
 ---
 
@@ -303,6 +320,11 @@ Legenda:
 | Banan | 120 g | 180 g |
 | Orzechy włoskie | 8 g | 12 g |
 | Erytrol | opcjonalnie | opcjonalnie |
+
+**Przygotowanie wspolne:**
+1. Banana rozgnieć widelcem na papkę, wymieszać ze skyrem i kakao (słodzik jeśli używasz).
+2. Schłodź 15–20 min albo od razu podaj — konsystencja jak budyń.
+3. Posyp posiekanymi orzechami.
 
 ---
 
@@ -460,8 +482,12 @@ Legenda:
 | Erytrol / wanilia | do smaku | do smaku |
 | Orzechy laskowe | 8 g | 12 g |
 
----
+**Przygotowanie wspolne:**
+1. Twaróg zmiksuj z jogurtem, sokiem z cytryny i słodzidłem/wanilią do gładkości.
+2. Borówki wymieszaj z musem twarogowym lub ułóż na wierzchu.
+3. Posyp posiekanymi orzechami laskowymi.
 
+---
 ## Dzien 7
 
 ### Posiłek 1
@@ -484,23 +510,24 @@ Legenda:
 ---
 
 ### Posiłek 2
-**Pinsa bianca z kurczakiem, pieczarkami i parmezanem**
+**Makaron pełnoziarnisty z kurczakiem, pieczarkami i sosem jogurtowo-parmezanowym (bianco)**
 
 | Składnik | 1800 | 2400 |
 |---|---:|---:|
-| Pinsa | 160 g | 220 g |
+| Makaron pełnoziarnisty (suchy) | 60 g | 85 g |
 | Pierś z kurczaka | 170 g | 250 g |
 | Pieczarki | 180 g | 260 g |
 | Mozzarella | 45 g | 65 g |
-| Jogurt naturalny 2% (baza zamiast sosu) | 40 g | 60 g |
+| Jogurt naturalny 2% (sos) | 40 g | 60 g |
 | Parmezan | 10 g | 15 g |
-| Czosnek | 1 zabek | 1.5 zabka |
+| Czosnek | 1 ząbek | 1.5 ząbka |
 | Rukola | 20 g | 30 g |
 | Oliwa | 7 g | 10 g |
 
 **Przygotowanie wspolne:**
-1. Podsmaż kurczaka i pieczarki z czosnkiem.
-2. Posmaruj pinsę jogurtem, dodaj farsz i mozzarella; piecz 10-12 min.
+1. Ugotuj makaron w osolonej wodzie. Podsmaż kurczaka i pieczarki z czosnkiem, dopraw solą i pieprzem.
+2. Na patelni zdejmij z ognia, dodaj jogurt i starty parmezan; wymieszaj z makaronem (sos nie może się zagotować).
+3. Serwuj z mozzarellą roztopioną na wierzchu (chwilowo pod przykryciem) lub kawałkami mozzarelli i rukolą.
 
 ---
 
@@ -534,6 +561,11 @@ Legenda:
 | Truskawki | 160 g | 220 g |
 | Kakao | 5 g | 7 g |
 | Wiórki kokosowe | 6 g | 10 g |
+
+**Przygotowanie wspolne:**
+1. Truskawki pokrój (lub rozgnieć widelcem na mus).
+2. Wymieszaj skyr z kakao do jednolitego koloru.
+3. Złóż w miseczce: skyr + truskawki; posyp wiórkami kokosowymi.
 
 ---
 
@@ -610,6 +642,11 @@ Legenda:
 | Cynamon | do smaku | do smaku |
 | Erytrol / miod | 6 g | 10 g |
 
+**Przygotowanie wspolne:**
+1. Opłucz ryż, wrzuć do garnka, zalej mlekiem i zagotuj na małym ogniu.
+2. Gotuj 18–22 min, mieszając co jakiś czas; na końcu dodaj starte jabłko, cynamon i słodzik.
+3. Podaj na ciepło (w razie potrzeby dolej odrobinę mleka).
+
 ---
 
 ## Dzien 9
@@ -683,6 +720,11 @@ Legenda:
 | Orzechy wloskie | 10 g | 15 g |
 | Wanilia + cynamon | do smaku | do smaku |
 
+**Przygotowanie wspolne:**
+1. Gruszkę pokrój w kostkę lub plasterki.
+2. Wymieszaj skyr z wanilią (ekstrakt lub aromat) i szczyptą cynamonu.
+3. Ułóż gruszkę na jogurcie; posyp posiekanymi orzechami włoskimi.
+
 ---
 
 ## Dzien 10
@@ -706,11 +748,11 @@ Legenda:
 ---
 
 ### Posiłek 2
-**Pinsa z warzywami i szynką parmeńską (wariant „warzywny”)**
+**Tortilla z warzywami, mozzarellą i szynką parmeńską (jak zapiekana quesadilla)**
 
 | Składnik | 1800 | 2400 |
 |---|---:|---:|
-| Pinsa | 160 g | 220 g |
+| Tortilla pełnoziarnista | 1.5 szt. (90 g) | 2 szt. (120 g) |
 | Mozzarella | 50 g | 70 g |
 | Papryka | 160 g | 220 g |
 | Cebula | 50 g | 70 g |
@@ -720,8 +762,9 @@ Legenda:
 | Oregano/bazylia | do smaku | do smaku |
 
 **Przygotowanie wspolne:**
-1. Podpraż warzywa na patelni.
-2. Na pinsie rozłóż warzywa i mozzarella, zapiek 10-12 min; po wyjęciu dodaj szynkę.
+1. Podsmaż warzywa z przyprawami na odrobinie oliwy, aż lekko zmiękną.
+2. Na połowie tortilli ułóż warstwę mozzarelli, warzywa i kolejną warstwę sera; przykryj drugą połową tortilli (jeśli używasz całej tortilli — złóż na pół jak calzone).
+3. Podsmaz na suchej patelni z przykrywką z obu stron, aż ser się rozpuści; po wyjęciu dodaj cienkie plasterki szynki parmeńskiej.
 
 ---
 
@@ -773,6 +816,7 @@ Wariant 2400: ok. 2350-2470 kcal/dzien; B ok. 140-165 g, T ok. 75-95 g, W ok. 24
 Z uwagi na roznice w gramaturach i produkty typu „przyprawy do smaku”, liczby sa orientacyjne:
 
 ### Bialko i nabial
+- Mleko 2%: ok. 1.2–1.8 l (ryż na mleku)
 - Jajka: ok. 60 szt.
 - Twaróg poltlusty: ok. 1.8-2.2 kg
 - Skyr / jogurt proteinowy: ok. 3.0-3.8 kg
@@ -787,7 +831,7 @@ Z uwagi na roznice w gramaturach i produkty typu „przyprawy do smaku”, liczb
 - Makaron pelnoziarnisty: ok. 0.45-0.6 kg
 - Ziemniaki: ok. 6-8 kg
 - Pieczywo (razowe): ok. 1.2-1.8 kg
-- Tortille / pinsy: tortilla ok. 20-28 szt., pinsa ok. 10-14 szt. (lub wg gramatury)
+- Tortille / pinsy: tortilla ok. 26–34 szt., pinsa pomiń (w zestawie bez pinsy — zastąpione ziemniaczaną zapiekanką i tortillą)
 
 ### Warzywa i owoce + dodatki
 - Ogórki: ok. 5-7 kg
