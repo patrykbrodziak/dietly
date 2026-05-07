@@ -1,4 +1,6 @@
-const dietSelect = document.getElementById("diet-select");
+/** Plik jadłospisu w katalogu projektu (serwowany przez lokalny serwer HTTP). */
+const DIET_FILE = "nowe_diety_10dni_1800_2400_kolejny_zestaw.md";
+
 const reloadButton = document.getElementById("reload-btn");
 const statusEl = document.getElementById("status");
 const contentEl = document.getElementById("content");
@@ -427,12 +429,8 @@ async function loadDiet(fileName) {
   }
 }
 
-dietSelect.addEventListener("change", () => {
-  loadDiet(dietSelect.value);
-});
-
 reloadButton.addEventListener("click", () => {
-  loadDiet(dietSelect.value);
+  loadDiet(DIET_FILE);
 });
 
 selectAllDaysBtn.addEventListener("click", () => {
@@ -453,4 +451,4 @@ clearShoppingBtn.addEventListener("click", () => {
   shoppingListEl.innerHTML = "";
 });
 
-loadDiet(dietSelect.value);
+loadDiet(DIET_FILE);
